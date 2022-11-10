@@ -18,7 +18,7 @@ comment all lines after User (line 65) in gqlgen.yml
 ```bash
 go run github.com/99designs/gqlgen@v0.17.20 generate
 go run github.com/99designs/gqlgen@v0.17.20
-'''
+```
 copy paste new type/inputs from model/model_gen.go to models/models.go
 uncomment all the commented code in gqlgen.yml
 ```bash
