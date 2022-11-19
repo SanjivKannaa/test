@@ -1,27 +1,27 @@
-# CYBER-SEC-GAME-BACKEND
-A GraphQL API for Cyber security game.
+# cybersec-game-admin-panel
 
-## Tech stack
-- Server language: Go 1.18.1
-- Database: MySQL
-- ORM: GORM
-- gqlgen
+## Teckstack:
 
-## Setup
-- Clone this repo
-- Create .env file from .env.example
-- Run ```docker-compose up```
+1. React JS
 
-## To generate model from the graphql schema
-delete scheme.resolvers.go (if it exists)
-comment all lines after User (line 65) in gqlgen.yml 
-```bash
-go run github.com/99designs/gqlgen@v0.17.20 generate
-go run github.com/99designs/gqlgen@v0.17.20
-```
-copy paste new type/inputs from model/model_gen.go to models/models.go<br />
-uncomment all the commented code in gqlgen.yml
-```bash
-go run github.com/99designs/gqlgen@v0.17.20 generate
-go run github.com/99designs/gqlgen@v0.17.20
-```
+## Version configurations:
+
+1. npm - 8.19.2
+
+## Setup Locally:
+
+1. git clone cybersec-game-admin-panel
+2. make sure docker cli is available
+
+3. ```bash
+    docker build .
+   ```
+
+4. Create an .env file and reference the parameters from .env.example file
+
+5. ```bash
+    sudo docker-compose up
+   ```
+   this step requires root privilages
+
+6. Open localhost:3000 in browser.
