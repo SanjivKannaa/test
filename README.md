@@ -22,6 +22,6 @@
 5. ```bash
     sudo docker-compose up
    ```
-   this step requires root privilages
+   #This step requires root privilages
 
 6. Open localhost:3000 in browser.
